@@ -6,7 +6,7 @@ from queue import Queue
 from typing import List, Callable
 
 from .tello import Tello
-from enforce_types import enforce_types
+from .enforce_types import enforce_types
 
 
 @enforce_types

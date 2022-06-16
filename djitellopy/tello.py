@@ -10,7 +10,7 @@ from threading import Thread
 from typing import Optional, Union, Type, Dict
 from datetime import datetime
 import cv2  # type: ignore
-from enforce_types import enforce_types
+from .enforce_types import enforce_types
 
 threads_initialized = False
 drones: Optional[dict] = {}
@@ -25,8 +25,8 @@ class Tello:
     [2.0 with EDU-only commands](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf)
     """
     # Send and receive commands, client socket
-    RESPONSE_TIMEOUT = 15  # in seconds
-    TAKEOFF_TIMEOUT = 20  # in seconds
+    RESPONSE_TIMEOUT = 20  # in seconds
+    TAKEOFF_TIMEOUT = 35  # in seconds
     FRAME_GRAB_TIMEOUT = 3
     TIME_BTW_COMMANDS = 0.1  # in seconds
     TIME_BTW_RC_CONTROL_COMMANDS = 0.001  # in seconds
