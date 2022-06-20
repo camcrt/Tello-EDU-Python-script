@@ -46,19 +46,33 @@ once the drone is connected you have to comment it again
 ### keyboard_controlled_swarm.py
 The aim of this script is to control an indefinite number of drone with the keyboard. To connect them to re router, follow the same instruction  as for the `controller_router_mode.py` script.
 
-Here the command : 
-|key| command           |
-|---|-------------------|
-| e | takeoff           |
-| p | land              |
-| z | move forward      |
-| q | move to the left  |
-| s | move back         |
-| d | move to the right |
-| c | move up           |
-| x | move down         |
-| f |                   |
+#### Here the commands : 
+| key |      command      |
+|:---:|:-----------------:|
+|  e  |      takeoff      |
+|  p  |        land       |
+|  z  |    move forward   |
+|  q  |  move to the left |
+|  s  |     move back     |
+|  d  | move to the right |
+|  c  |      move up      |
+|  x  |     move down     |
+|  f  |     do a flip     |
 
 ### two_drone_one_keyboard.py
 Thanks to this script you can control two Tello EDU through a router with your keyboard. To connect them to re router, follow the same instruction  as for the `controller_router_mode.py` script.
 
+#### Here the command : 
+|         Drone 1                |         Drone 2             |                   
+|:------------------------------:|:---------------------------:|
+|     key    |      command      |   key   |      command      |
+|     TAB    |      takeoff      |    e    |      takeoff      |
+|   RETURN   |        land       |    p    |        land       |
+|      z     |    move forward   |    i    |    move forward   |
+|      q     |  move to the left |    qj   |  move to the left |
+|      s     |     move back     |    k    |     move back     |
+|      d     | move to the right |    l    | move to the right |
+|    space   |      move up      |    b    |      move up      |
+| left shift |     move down     |    n    |     move down     |
+|      e     |  yaw on the right |    o    |  yaw on the right |
+|      a     |  yaw on the left  |    u    |  yaw on the left  |
