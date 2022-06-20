@@ -69,7 +69,7 @@ Thanks to this script you can control two Tello EDU through a router with your k
 |     TAB    |      takeoff      |    e    |      takeoff      |
 |   RETURN   |        land       |    p    |        land       |
 |      z     |    move forward   |    i    |    move forward   |
-|      q     |  move to the left |    qj   |  move to the left |
+|      q     |  move to the left |    j    |  move to the left |
 |      s     |     move back     |    k    |     move back     |
 |      d     | move to the right |    l    | move to the right |
 |    space   |      move up      |    b    |      move up      |
