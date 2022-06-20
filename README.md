@@ -63,7 +63,7 @@ The aim of this script is to control an indefinite number of drone with the keyb
 Thanks to this script you can control two Tello EDU through a router with your keyboard. To connect them to re router, follow the same instruction  as for the `controller_router_mode.py` script.
 
 #### Here the command : 
- |           Drone 1             |           Drone 2           |
+|           Drone 1              |           Drone 2           |
 |:----------:|:-----------------:|:-------:|:-----------------:|
 |     key    |      command      |   key   |      command      |
 |     TAB    |      takeoff      |    e    |      takeoff      |
