@@ -1,19 +1,14 @@
 # Drone-Swarming
 The goal of this project is to allow the manual control of one or more Tello EDU drone. 
 
-*  The `conf.py` file and the `setup.sh`come from [this repository](https://github.com/hammoudipro/Drone-Swarming) 
+*  The `conf.py` file and a part of the`setup.sh` file come from [this repository](https://github.com/hammoudipro/Drone-Swarming) 
 
 # Installation
 The instructions below work on Linux and similar operating systems.
 
 #### Clone this repository
 ```bash
-git clone https://github.com/hammoudipro/Drone-Swarming.git
-```
-
-#### Change directory
-```bash
-cd Drone-Swarming
+git clone https://github.com/camcrt/Tello-EDU-Python-script.git
 ```
 
 #### Install python3 and all needed modules
@@ -28,7 +23,7 @@ chmod +x setup.sh
 ```
 
 ## Scripts 
-There is three usable script in the the example folder : 
+There is four usable script in the the scripts folder : 
 
 ### controller_AP_mode.py 
 Thanks to this script you can control one Tello EDU on acces point mode.
@@ -48,6 +43,19 @@ once the drone is connected you have to comment it again
 
 * We need the **name**, **ssid**, **password** and **netmask** (by default netmask is set to 24) of the router 
 
+### keyboard_controlled_swarm.py
+The aim of this script is to control an indefinite number of drone with the keyboard. To connect them to re router, follow the same instruction  as for the `controller_router_mode.py` script.
+
+Here the command : 
+| e | takeoff           |
+| p | land              |
+| z | move forward      |
+| q | move to the left  |
+| s | move back         |
+| d | move to the right |
+| c | move up           |
+| x | move down         |
+| f |                   |
 
 ### two_drone_one_keyboard.py
 Thanks to this script you can control two Tello EDU through a router with your keyboard. To connect them to re router, follow the same instruction  as for the `controller_router_mode.py` script.
