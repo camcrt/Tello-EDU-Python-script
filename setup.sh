@@ -74,3 +74,11 @@ if [ $? == 0 ]; then
 else
   pip3 install -y socket.py
 fi
+
+# pygame
+python3 -c "import pygame"
+if [ $? == 0 ]; then
+  echo "pygame already exist"
+else
+  pip3 install -y pygame.py
+fi
