@@ -47,6 +47,8 @@ once the drone is connected you have to comment it again
 The aim of this script is to control an indefinite number of drone with the keyboard. To connect them to re router, follow the same instruction  as for the `controller_router_mode.py` script.
 
 Here the command : 
+|key| command           |
+|---|-------------------|
 | e | takeoff           |
 | p | land              |
 | z | move forward      |
